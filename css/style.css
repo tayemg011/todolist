@@ -8,8 +8,8 @@
     #tasklist {
         padding: 16px;
         padding-top: 32px;
-        max-width: 98vw;
-        width: 98vw;
+        max-width: 90%;
+        max-width: 500px
     }
 
     .input-row {
@@ -29,9 +29,10 @@
         height: 40px;
     }
     .tasksdiv {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0;
     }
     li {
         font-size: 1rem;
@@ -80,12 +81,13 @@ img {
     align-items: center;
     justify-content: center;
     max-width: 600px;
-    width: 100%;
+    width: 90%;           /* Use % for responsiveness */
     padding: 30px;
     padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     box-sizing: border-box;
 }
-
 #inputTask{
     border-radius: 20px;
     padding: 10px;
